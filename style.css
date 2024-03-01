@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    background-color: lightblue;
+    height:10vh; 
+    width:100vw;
+    position:fixed;
+    overflow: hidden;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a div{
+    height: 10vh;
+    padding-top: 3vh;
+    color: black;
+}
+.logo{
+    height: 10vh;
+    padding-top: 3vh;
+    color: black;
+    width: 50vw;
+    padding-left: 4vw;
+}
+.nav-item{
+    width:9vw;
+    text-align: center;
+}
+.navbar a :hover{
+    background-color: gray;
+}
+.container{
+    padding-top: 10vh;
+    background-color: rgb(87, 114, 124);
+}
+.template-container{
+    display: block;
+    width: 100vw;
+    height: 50vh;
+    border: solid black;
+    text-align: center;
+    background-color: white;
+}
+.template{
+    display:inline-block;
+    background-color: black;
+    color: white;
+    padding:10px;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+.members-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 40vh;
+
+}
+ul{
+    list-style-type: none;
+}
+.member ul li{
+    padding: 10px;
+}
+.member{
+    display: flex;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: x-large;
+    width:20%;
+    justify-content: center;
+    padding:20px;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(33, 145, 186);
+    color: white;
+}
+
+
+
+.contactus_title{
+    display: block;
+    height: 20vh;
+    text-align: center;
+    background-color: black;
+}
+.contactus_title h1{
+    position: relative;
+    color:whitesmoke;
+    top:50%;
+    transform: translateY(-50%);
+}
+.get_in_touch{
+    display: flex;
+    height:70vh;
+    background-color: black;
+    width: 100vw;
+    justify-content: space-around;
+    padding:1%;
+}
+.email_ids{
+    padding:1%;
+    width:40%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.email_ids li{
+    padding:5px;
+}
+.email_ids li:not(.email){
+    color:rgb(205, 229, 27);
+}
+.email{
+    margin-left: 5%;
+    color: rgb(242, 173, 12);
+}
+.contact_form{
+    width:30%;
+    padding:10px;
+}
+.contact_form form fieldset{
+    padding-top:3%;
+}
+.contact_form form fieldset legend{
+    margin-left: 2%;
+    font-size: 20px;
+    color:white;
+}
+.contact_form form input{
+    width:80%;
+    margin:5%;
+    padding:2.5%;
+}
+.contact_form form textarea{
+    width:80%;
+    margin:5%;
+    padding:2.5%;
+}
+.contact_form button{
+    padding:5px;
+    margin:10px 20px 20px 20px;
+}
+.team-member{
+    display:block;
+    height:40.5vh;
+    border:solid black;
+    background-color: rgb(33, 145, 186);
+    margin:2% 10%;
+    color:white;
+}
+.photo-right{
+    float: right;
+    
+}
+.photo-right, .photo-left{
+    display: inline-block;
+    height:40vh;
+    border:solid black;
+    width:25%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.info-left, .info-right{
+    display: inline-block;
+    width:75%;
+    height:40vh;
+    /* background-color: aqua; */
+    padding:20px;
+    padding-top:30px;
+    font-size: 30px;
+}
+.info-left{
+    float: left;
+}
+.info-right{
+    float: right;
+}
